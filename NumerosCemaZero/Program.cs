@@ -1,28 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NumerosZeroACem // vai de zero a cem muito rápido
+namespace NumerosCemaZero //vai de 100 a zero muito rapido
 {
     internal class Program
     {
-        
         static void Main(string[] args)
         {
-            int cont = 1;
-            while (cont <= 100)
+            int cont = 100;
+            while (cont >= 1)
             {
                 Console.WriteLine(cont);
-                cont++;
+                cont--;
 
             }
             Console.ReadKey();
-
-
-
         }
     }
 }
