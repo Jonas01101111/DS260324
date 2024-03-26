@@ -24,7 +24,7 @@ namespace Anuidade
             while (cont <= 12) 
             {
                 res = (anui / 12) + matr + mate;
-                Console.WriteLine("Mensalidade "+cont+": R$"+String.Format("{0:0.00}" ,res));
+                Console.WriteLine("Mensalidade "+cont+":"+res.ToString("C"));
 
                 matr = 0;
                 mate = 0;
