@@ -56,6 +56,7 @@ namespace SalarioWhile
             }
             Console.WriteLine("Folha de pagamento:" + fp);
             Console.WriteLine("Funcionários cadastrados:" + cont);
+            Console.WriteLine("Média salarial:" + fp / cont);
             Console.ReadKey();
         }
     }
